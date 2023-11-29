@@ -16,9 +16,9 @@ package akatsukicharacter;
 // Kelas Akatsuki Character sebagai Super class 
 public class AkatsukiCharacter {
 // Deklarasi variabel
-    String asalDesa;
-    int umur;
-    String partner;
+   private String asalDesa;
+   private int umur;
+   private String partner;
 // Konstruktor  
       public AkatsukiCharacter(String asalDesa, int umur, String partner) {
         this.asalDesa = asalDesa;
